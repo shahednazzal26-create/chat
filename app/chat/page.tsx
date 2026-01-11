@@ -7,3 +7,4 @@ const ChatComponent = dynamic(() => import("../components/ChatComponent"), { ssr
 export default function ChatPage() {
   return <ChatComponent />;
 }
+
